@@ -26,7 +26,7 @@ The code inside the *git* repository must follow this [structure](https://develo
 
 To version your module you must tag the desired commits and push the tags to git. The tags must look like `vX.X.X`; for example: `v0.0.4`, `v2.0.1`
 
-Now you have to link your `GitHub` module with the `Terraform Registry`. To do this, navitate to *https://registry.terraform.io/github/create* and select your module from the dropdown. If this is your first time using the `Terraform Registry` you have to crete an account and link it with your `GitHub`.
+Now you have to link your `GitHub` module with the `Terraform Registry`. To do this, navigate to *https://registry.terraform.io/github/create* and select your module from the dropdown. If this is your first time using the `Terraform Registry` you have to create an account and link it with your `GitHub`.
 
 After publishing your module, make sure that `Inputs` and `Outputs` are correctly shown. For example, see *https://registry.terraform.io/modules/Frunza/playground/registry/latest*
 
