@@ -52,7 +52,7 @@ module "myPlaygroundSecond" {
 ```
 Note how you reference the module. The `Terraform Registry` will also add a sample usage.
 
-Since you probably want to make sure that everything works well, let's crete some outputs to view the results:
+Since you probably want to make sure that everything works well, let's create some outputs to view the results:
 ```sh
 output "myPlaygroundFirstSum" {
   value = module.myPlaygroundFirst.sum
