@@ -15,7 +15,7 @@ docker --version
 docker-compose --version
 ```
 
-You also need a module to publish. If you do not know how to create a `Terraform` module reffer to this [tutorial](https://github.com/Frunza/create-terraform-module).
+You also need a module to publish. If you do not know how to create a `Terraform` module refer to this [tutorial](https://github.com/Frunza/create-terraform-module).
 
 ## Publishing
 
