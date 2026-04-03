@@ -8,11 +8,10 @@ If you created your own `Terraform` module, how can you publish it to *hashicorp
 
 A Linux or MacOS machine for local development. If you are running Windows, you first need to set up the *Windows Subsystem for Linux (WSL)* environment.
 
-You need `docker cli` and `docker-compose` on your machine for testing purposes, and/or on the machines that run your pipeline.
-You can check both of these by running the following commands:
+You need `docker cli` on your machine for testing purposes, and/or on the machines that run your pipeline.
+You can verify this by running the following command:
 ```sh
 docker --version
-docker-compose --version
 ```
 
 You also need a module to publish. If you do not know how to create a `Terraform` module refer to this [tutorial](https://github.com/Frunza/create-terraform-module).
